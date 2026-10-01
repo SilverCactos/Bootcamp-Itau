@@ -37,5 +37,6 @@ public class exercicio3 {
             }
         }
         
+        scanner.close();
      }
 }

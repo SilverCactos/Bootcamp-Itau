@@ -18,5 +18,7 @@ public class exercicio1 {
             multiplicador += 1;
             
         }
+
+        scanner.close();
     }
 }

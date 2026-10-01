@@ -91,7 +91,7 @@ public class Conta {
             System.out.println("Seu cheque está sendo usado." );
         }
         else {
-            System.out.println("Seu cheque não esta sendo usado.." );
+            System.out.println("Seu cheque não esta sendo usado." );
         }
     }
 

@@ -35,6 +35,8 @@ public class exercicio2 {
             System.out.println("Obesidade grau III, severa.");
             System.out.printf("Seu IMC é %s", imc);
         }
+        
+        scanner.close();
     }
     
 }

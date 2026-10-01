@@ -19,5 +19,7 @@ public class exercicios4 {
             System.out.println("Insira outro número: ");
             num2 = scanner.nextInt();
         }
+
+        scanner.close();
     }
 }

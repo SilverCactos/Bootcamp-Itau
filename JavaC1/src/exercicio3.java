@@ -11,5 +11,6 @@ public class exercicio3 {
         var area = lado * altura;
         System.out.printf("A área do seu retângulo é: %s", area);
 
+        scanner.close();
     }
 }

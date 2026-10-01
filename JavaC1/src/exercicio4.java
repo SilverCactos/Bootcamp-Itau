@@ -23,5 +23,6 @@ public class exercicio4 {
 
         System.out.printf("A diferença de idade de vocês é de %s anos", diferenca);
 
+        scanner.close();
     }
 }

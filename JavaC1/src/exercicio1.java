@@ -1,4 +1,4 @@
-import  java.util.Scanner;
+import java.util.Scanner;
 
 public class exercicio1 {
     
@@ -13,5 +13,6 @@ public class exercicio1 {
 
         System.out.printf("Olá %s, você tem %s anos", nome, age);
 
+        scanner.close();
     }
 }

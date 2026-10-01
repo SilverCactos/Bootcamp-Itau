@@ -1,20 +1,19 @@
 import java.util.Scanner;
 
-public class dioex {
+public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         String codigoInformado = scanner.nextLine();
         String codigoEsperado = scanner.nextLine();
-
-        if (codigoInformado.equals(codigoEsperado)){
-            System.out.println("ACESSO LIBERADO");
+        
+        if (codigoInformado.equals(codigoEsperado)) {
+          System.out.println("ACESSO LIBERADO");
         }
         else {
-            System.out.println("ACESSO NEGADO");
+          System.out.println("ACESSO NEGADO");
         }
 
         scanner.close();
     }
 }
-

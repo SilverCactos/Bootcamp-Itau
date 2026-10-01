@@ -1,4 +1,4 @@
-import  java.util.Scanner;
+import java.util.Scanner;
 
 public class exercicio2 {
     public static void main(String[] args)  {
@@ -9,5 +9,6 @@ public class exercicio2 {
         var area = lado * lado;
         System.out.printf("A área do seu quadrado é: %s", area);
 
+        scanner.close();
     }
 }
